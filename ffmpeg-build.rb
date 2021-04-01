@@ -42,14 +42,12 @@ class FfmpegBuild < Formula
   depends_on "opencore-amr"
   depends_on "openjpeg"
   depends_on "opus"
-  depends_on "rav1e"
   depends_on "rtmpdump"
   depends_on "rubberband"
   depends_on "sdl2"
   depends_on "snappy"
   depends_on "speex"
   depends_on "srt"
-  depends_on "tesseract"
   depends_on "theora"
   depends_on "webp"
   depends_on "x264"
@@ -82,11 +80,9 @@ class FfmpegBuild < Formula
       --enable-libdav1d
       --enable-libmp3lame
       --enable-libopus
-      --enable-librav1e
       --enable-librubberband
       --enable-libsnappy
       --enable-libsrt
-      --enable-libtesseract
       --enable-libtheora
       --enable-libvidstab
       --enable-libvorbis
