@@ -54,7 +54,6 @@ class FfmpegBuild < Formula
   depends_on "x265"
   depends_on "xvid"
   depends_on "xz"
-  depends_on "zeromq"
   depends_on "zimg"
 
   uses_from_macos "bzip2"
@@ -104,7 +103,6 @@ class FfmpegBuild < Formula
       --enable-libspeex
       --enable-libsoxr
       --enable-videotoolbox
-      --enable-libzmq
       --enable-libzimg
       --disable-libjack
       --disable-indev=jack
